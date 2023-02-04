@@ -29,7 +29,7 @@
 <div class="container-fluid">
     <div class="row">
 
-
+<!--Used to show left sidebar buttons--> 
         <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
             <ul class="list-group">
                 <li class="list-group-item"><a href="#">Dashboard</a></li>
