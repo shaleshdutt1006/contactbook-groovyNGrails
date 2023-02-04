@@ -27,6 +27,7 @@ class AuthenticationController {
         redirect(controller: "authentication", action: "login")
     }
 
+//Adding registration form 
     def registration() {
         [member: flash.redirectParams]
     }
