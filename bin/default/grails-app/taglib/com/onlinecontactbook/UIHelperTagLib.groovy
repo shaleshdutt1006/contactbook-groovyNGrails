@@ -28,6 +28,9 @@ class UIHelperTagLib {
     def leftNavigation = { attrs, body ->
         List navigations = [
                 [controller: "dashboard", action: "index", name: "dashboard"],
+
+               //Adding  contact group to the left side navigation
+                [controller: "contactGroup", action: "index", name: "contact.group"],
         ]
 
         if(authenticationService.isAdministratorMember()){
