@@ -53,6 +53,8 @@
                             <div class="btn-group">
                                 <g:link controller="member" action="details" class="btn btn-secondary" id="${info.id}"><i class="fas fa-eye"></i></g:link>
                                 <g:link controller="member" action="edit" class="btn btn-secondary" id="${info.id}"><i class="fas fa-edit"></i></g:link>
+                               
+                               <!--here delete confirmation uses jquery secondary class before deleting the Contacts-->
                                 <g:link controller="member" action="delete" id="${info.id}" class="btn btn-secondary delete-confirmation"><i class="fas fa-trash"></i></g:link>
                             </div>
                         </td>
@@ -62,8 +64,8 @@
         </table>
 
    <!--this is used to add pagination it is pagination taglib-->    
-   
-    
+
+
     %{--Pagination Area--}%
     <div class="paginate">
         <g:paginate total="${total ?: 0}" />

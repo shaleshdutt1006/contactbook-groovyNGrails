@@ -90,7 +90,7 @@ h1 {
     float: left;
 }
 
-
+/* Height and width of the message box */
 .alert{
     min-height:50px;
     width: 300px; /** Use 100% to fill the width of the page **/
