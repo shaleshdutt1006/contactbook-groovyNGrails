@@ -25,6 +25,8 @@
                 <g:passwordField name="password" class="form-control" value="${member?.password}" placeholder="Please Enter Password"/>
         
         <!-- This is UIHelper taglib shows errorMessage when we don't enter password correct-->
+
+        
         <UIHelper:renderErrorMessage fieldName="password" model="${member}" errorMessage="Please Enter a Password."/>
     </div>
 </g:if>

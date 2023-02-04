@@ -10,6 +10,7 @@
 *= require bootstrap
 *= require style
 *= require jquery-confirm.min
+*= require login
 *= require fontawesome/css/all.min
 *= require_self
 */
