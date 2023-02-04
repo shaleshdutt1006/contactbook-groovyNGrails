@@ -12,6 +12,7 @@
     <asset:javascript src="application.js"/>
 
     <script type="text/javascript">
+    OCB.baseURL = "${UIHelper.appBaseURL()}";
         <g:if test="${flash?.message && flash?.message?.info}">
         jQuery(document).ready(function () {
             OCB.messageBox.showMessage(Boolean(${flash.message?.success}), "${flash.message?.info}");
@@ -39,6 +40,8 @@
     <div class="row">
         <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
             <ul class="list-group">
+<!--taglib for left sidebar to make navigation with customised UIHelperTagLib-->
+
                 <UIHelper:leftNavigation/>
             </ul>
         </nav>
