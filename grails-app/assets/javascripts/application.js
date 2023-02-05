@@ -8,5 +8,9 @@
 //= require jquery-3.5.1.min
 //= require popper.min
 //= require ocb
+//= require jquery-confirm.min
+//= require ocb.message.box
+//= require ocb.init
 //= require bootstrap
+//= require ocb.ajax
 //= require_self

@@ -11,6 +11,7 @@ buildscript {
     }
 }
 
+
 version "0.1"
 group "onlinecontactbook"
 
@@ -59,6 +60,10 @@ dependencies {
     implementation "org.hibernate:hibernate-core:5.6.11.Final"
     implementation "org.grails.plugins:events"
     implementation "org.grails.plugins:gsp"
+    //Adding my sql database connectivity
+   // https://mvnrepository.com/artifact/mysql/mysql-connector-java
+ 
+implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.28'
     profile "org.grails.profiles:web"
     runtimeOnly "org.glassfish.web:el-impl:2.2.1-b05"
     runtimeOnly "com.h2database:h2"
