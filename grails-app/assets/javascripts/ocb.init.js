@@ -9,6 +9,7 @@ jQuery(document).ready(function () {
 
 }); 
 
+//add new item
 jQuery('.card-body').on('click', '.add-new-number ', function () {
     var _this = jQuery(this);
     OCB.ajax.call({
@@ -26,6 +27,8 @@ jQuery('.card-body').on('click', '.add-new-number ', function () {
     });
 });
 
+
+//remove item
 jQuery('.card-body').on('click', '.remove-number', function () {
     var _this = jQuery(this),
         contactId = _this.attr("data-id");

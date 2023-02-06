@@ -15,7 +15,8 @@
     <label><g:message code="email.address"/> *</label>
     <g:field type="email" name="email" class="form-control" value="${member?.email}" placeholder="Please Enter Email"/>
 
-    <!-- This is UIHelper taglib shows errorMessage when we don't enter email correct-->
+    <!--This is UIHelper taglib shows errorMessage when we don't enter email correct-->
+
     <UIHelper:renderErrorMessage fieldName="email" model="${member}" errorMessage="Your Email Address is not Valid / Already Exist in System"/>
 </div>
 
@@ -26,7 +27,7 @@
         
         <!-- This is UIHelper taglib shows errorMessage when we don't enter password correct-->
 
-        
+
         <UIHelper:renderErrorMessage fieldName="password" model="${member}" errorMessage="Please Enter a Password."/>
     </div>
 </g:if>

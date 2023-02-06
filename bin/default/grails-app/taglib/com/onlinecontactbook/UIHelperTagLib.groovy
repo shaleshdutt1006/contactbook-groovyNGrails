@@ -50,6 +50,9 @@ ContactGroupService contactGroupService
         String name = attrs.name ?: "contactGroup"
         out << g.select(class:"form-control", multiple: "multiple", optionValue: "name", optionKey: "id", value: attrs.value, name: name, from: contactGroupService.getGroupList())
     }
+
+
+    
  def contactType = { attrs, body ->
         String name = attrs.name ?: "type"
         String value = attrs.value ?: ""

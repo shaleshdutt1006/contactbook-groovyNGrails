@@ -1,5 +1,6 @@
 package onlinecontactbook
 
+import com.onlinecontactbook.AppInitializationService
 class BootStrap {
 
     def init = { servletContext ->

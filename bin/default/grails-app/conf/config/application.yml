@@ -2,11 +2,11 @@ dataSource:
   driverClassName: com.mysql.cj.jdbc.Driver
   dbCreate: update
   username: root
-  password: ''
+  password: 'superstars'
 
 environments:
-
 # Here overriding the previous global configuration of application.yml devlopment part
+
   development:
     dataSource:
       dbCreate: update
